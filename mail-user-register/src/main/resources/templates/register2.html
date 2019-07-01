@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base href="/"/>
+</head>
+<body>
+    <h3>用户注册</h3>
+    <form action="user/add" method="post">
+        用户名:<input type="text" name="username"/>
+        密码:<input type="password" name="password"/>
+        邮箱:<input type="text" name="email"/>
+        <input type="submit" value="注册" />
+
+    </form>
+
+    <script type="text/javascript">
+
+        window.setTimeout(function () {
+            alter("boom!");
+        },3000);
+
+        window.setInterval(function () {
+            alert("更新时间");
+        },1000)
+    </script>
+
+</body>
+</html>

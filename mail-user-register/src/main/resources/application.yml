@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: register-web
+  registry:
+    protocol: zookeeper
+    address: 192.168.19.129:2181
+server:
+  port: 9094
+
+
+
+  redis:
+    host: 192.168.121.128
+    port: 6379
+    password: :java1902
+    jedis:
+      pool:
+        max-active: 66
